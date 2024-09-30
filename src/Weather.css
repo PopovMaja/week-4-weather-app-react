@@ -1,0 +1,91 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Weather {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(137, 210, 253) 0%,
+    rgb(255, 241, 188) 90%
+  );
+  width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+.Weather .enter-city {
+  font-size: 18px;
+  background-color: rgb(187, 187, 187);
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.Weather .search-city {
+  font-size: 18px;
+  background-color: rgb(88, 86, 86);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.Weather header {
+  border-bottom: 1px solid grey;
+  padding: 0 0 30px 0;
+}
+.Weather .h1-h2 {
+  display: flex;
+  justify-content: space-between;
+  max-height: 55px;
+  margin-bottom: 30px;
+}
+.Weather h1 {
+  font-size: 40px;
+}
+.Weather h2 {
+  position: relative;
+  display: flex;
+  top: 10px;
+  right: 60px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+}
+.Weather .date-current-weather {
+  display: flex;
+  justify-content: space-between;
+  max-height: 75px;
+}
+.Weather .time {
+  font-size: 18px;
+}
+.weather-info {
+  display: flex;
+  margin-right: 60px;
+}
+.Weather .icon {
+  width: 75px;
+  height: 75px;
+  margin-top: -10px;
+}
+.Weather .temperature {
+  font-size: 80px;
+  margin-top: -30px;
+}
+.Weather .unit {
+  font-size: 20px;
+}
+.Weather .extra-info {
+  font-size: 18px;
+  font-style: italic;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0px;
+  margin: 20px 0;
+  border-bottom: 1px solid grey;
+}
+.Weather span {
+  color: red;
+}
