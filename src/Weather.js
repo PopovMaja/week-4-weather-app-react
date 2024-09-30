@@ -50,6 +50,35 @@ export default function Weather() {
           Wind: <span className="wind-speed">21</span>km/h
         </li>
       </ul>
+      <footer>
+        <p>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/PopovMaja"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Maja Popov
+          </a>{" "}
+          and is open sorced on{" "}
+          <a
+            href="https://github.com/PopovMaja/week-4-weather-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://weather-app-react-week-4-homework.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+          .
+        </p>
+      </footer>
     </div>
   );
 }
